@@ -19,7 +19,9 @@
 
 5、数据库分页查询：select * from 表名  limit  (pagenum-1)*pagesize, pagesize;   //pagenum是页数，pagesize是每一页显示的大小
 6、Java转型问题：父类引用指向子类对象。
-	把子类对象直接赋给父类引用叫upcasting向上转型，向上转型不用强制转换。通俗地讲即是将子类对象转为父类对象。Father f1 = new Son();  // 这就叫 upcasting （向上转型)99
+	把子类对象直接赋给父类引用叫upcasting向上转型，向上转型不用强制转换。通俗地讲即是将子类对象转为父类对象。Father f1 = new Son();  // 这就叫 upcasting （向上转型)
 	把指向子类对象的父类引用赋给子类引用叫向下转型(downcasting)，要强制转换。
+
+	向上向下转型的意义：使类的使用更加灵活简单……（未详细了解）
 
 7、Linux下查看最后十行：tail -n 10 filename
